@@ -20,7 +20,6 @@ var move = function (coors, e) {
 };
 var stop = function (coors) {
   if (this.isDrawing) {
-    this.touchmove(coors);
     this.isDrawing = false;
   }
 };
